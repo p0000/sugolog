@@ -1,0 +1,104 @@
+@charset "UTF-8"
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	background: #e7e8f2;
+	color: #280900;
+	font-family:Verdana,"MS Gothic",Osaka,Arial,sans-serif;
+}
+
+a:link, a:visited {
+	color: #1122cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #dd0000;
+}
+
+div#head {
+	width: 100%;
+	background: #3b5998;
+	color: #fff;
+}
+
+div#main {
+	width: 100%;
+}
+div#main-in {
+	padding: 6px;
+}
+
+div#reg-box {
+	width: 560px;
+	margin: 1.2em 1.5em;
+	padding: 18px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 10px #666;
+	-moz-box-shadow: 0px 1px 10px #666;
+	box-shadow: 0px 1px 10px #666;
+	border: 1px solid #808080;
+	background: #f2f3f9;
+}
+
+table#reg-tbl {
+	margin-bottom: 0 !important;
+}
+table#reg-tbl th, table#reg-tbl td {
+	font-size: 13px;
+	padding: 2px;
+	text-align: left;
+}
+
+table#reg-tbl input, table#reg-tbl textarea {
+	padding: 3px;
+}
+
+input.reg-name {
+	width: 210px;
+}
+
+input.reg-title {
+	width: 260px;
+}
+
+textarea.reg-com {
+	width: 440px;
+	height: 7em;
+}
+
+input.reg-btn {
+	width: 80px;
+	height: 26px;
+	margin: 0 6px;
+}
+
+div.bbs-art {
+	border-top: 1px solid #666;
+	padding: 8px;
+}
+div.bbs-art h3 {
+	margin: 3px 0 8px 0;
+	font-size: 120%;
+	color: #2f4979;
+}
+div.bbs-pan {
+	text-align: right;
+}
+div.bbs-pan span {
+	color: #006400;
+	display: inline-block;
+	margin-right: 5px;
+}
+div.bbs-pan a {
+	color: #000;
+}
+div.bbs-com {
+	margin: 8px 0 8px 20px;
+	color: #333;
+}
